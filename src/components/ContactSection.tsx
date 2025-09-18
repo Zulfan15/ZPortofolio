@@ -108,7 +108,7 @@ export default function ContactSection() {
                 Get in Touch
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                I'm always excited to discuss new opportunities, collaborate on interesting projects, 
+                I&apos;m always excited to discuss new opportunities, collaborate on interesting projects, 
                 or simply connect with fellow technology enthusiasts. Feel free to reach out through 
                 any of the channels below.
               </p>
@@ -314,7 +314,7 @@ export default function ContactSection() {
                   animate={{ opacity: 1, y: 0 }}
                   className="text-center p-4 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-lg"
                 >
-                  Thank you for your message! I'll get back to you soon.
+                  Thank you for your message! I&apos;ll get back to you soon.
                 </motion.div>
               )}
             </form>

@@ -189,28 +189,30 @@ export default function SkillsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
           viewport={{ once: true }}
-          className="mt-16 text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white"
+          className="mt-16 text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8"
         >
-          <h3 className="text-2xl font-bold mb-4">
-            Continuously Learning & Growing
-          </h3>
-          <p className="text-blue-100 max-w-2xl mx-auto">
-            With a passion for technology and education, I continuously expand my skill set through hands-on projects, 
-            teaching experiences, and staying current with industry trends and best practices.
-          </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            {['Problem Solving', 'Team Leadership', 'Mentoring', 'Research', 'Innovation'].map((soft, index) => (
-              <motion.span
-                key={soft}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.1 * index }}
-                viewport={{ once: true }}
-                className="px-4 py-2 bg-white bg-opacity-20 rounded-full text-sm font-medium backdrop-blur-sm"
-              >
-                {soft}
-              </motion.span>
-            ))}
+          <div className="text-white">
+            <h3 className="text-2xl font-bold mb-4 text-white">
+              Continuously Learning &amp; Growing
+            </h3>
+            <p className="text-blue-100 max-w-2xl mx-auto">
+              With a passion for technology and education, I continuously expand my skill set through hands-on projects, 
+              teaching experiences, and staying current with industry trends and best practices.
+            </p>
+            <div className="mt-6 flex flex-wrap justify-center gap-3">
+              {['Problem Solving', 'Team Leadership', 'Mentoring', 'Research', 'Innovation'].map((soft, index) => (
+                <motion.span
+                  key={soft}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5, delay: 0.1 * index }}
+                  viewport={{ once: true }}
+                  className="px-4 py-2 bg-white bg-opacity-20 text-white rounded-full text-sm font-medium backdrop-blur-sm"
+                >
+                  {soft}
+                </motion.span>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>

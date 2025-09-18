@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Briefcase, Calendar, MapPin, Building, CheckCircle } from 'lucide-react';
+import { Briefcase, Calendar, Building, CheckCircle } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function ExperienceSection() {

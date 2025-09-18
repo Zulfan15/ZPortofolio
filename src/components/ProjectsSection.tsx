@@ -181,8 +181,8 @@ export default function ProjectsSection() {
             Interested in Collaboration?
           </h3>
           <p className="text-blue-100 max-w-2xl mx-auto mb-6">
-            I'm always excited to work on innovative projects that push the boundaries of technology. 
-            Let's discuss how we can create something amazing together.
+            I&apos;m always excited to work on innovative projects that push the boundaries of technology. 
+            Let&apos;s discuss how we can create something amazing together.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
