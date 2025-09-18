@@ -40,8 +40,8 @@ export default function ContactSection() {
     {
       icon: <Mail size={24} />,
       label: 'Email',
-      value: 'MuhammadZAngg@gmail.com',
-      href: 'mailto:MuhammadZAngg@gmail.com',
+      value: 'Zulfanangga2908@gmail.com',
+      href: 'mailto:Zulfanangga2908@gmail.com',
       color: 'from-red-500 to-red-600'
     },
     {
@@ -64,13 +64,13 @@ export default function ContactSection() {
     {
       icon: <Github size={20} />,
       label: 'GitHub',
-      href: 'https://github.com/muhammadZulfanA',
+      href: 'https://github.com/Zulfan15',
       color: 'hover:bg-gray-800 hover:text-white'
     },
     {
       icon: <Linkedin size={20} />,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/muhammad-zulfan-anggadhiputra',
+      href: 'https://www.linkedin.com/in/mzulfana/',
       color: 'hover:bg-blue-600 hover:text-white'
     }
   ];

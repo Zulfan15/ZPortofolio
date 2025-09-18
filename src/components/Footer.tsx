@@ -119,7 +119,7 @@ export default function Footer() {
             <div className="space-y-3 text-gray-400">
               <p className="flex items-start space-x-2">
                 <Mail size={16} className="mt-0.5 text-blue-400" />
-                <span>MuhammadZAngg@gmail.com</span>
+                <span>Zulfanangga2908@gmail.com</span>
               </p>
               <p className="text-sm leading-relaxed">
                 Based in Bandung, West Java, Indonesia

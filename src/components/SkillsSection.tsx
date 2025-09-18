@@ -207,7 +207,7 @@ export default function SkillsSection() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5, delay: 0.1 * index }}
                   viewport={{ once: true }}
-                  className="px-4 py-2 bg-white bg-opacity-20 text-white rounded-full text-sm font-medium backdrop-blur-sm"
+                  className="px-4 py-2 bg-white bg-opacity-20 text-black rounded-full text-sm font-medium backdrop-blur-sm"
                 >
                   {soft}
                 </motion.span>

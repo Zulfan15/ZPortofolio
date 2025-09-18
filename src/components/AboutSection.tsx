@@ -78,12 +78,12 @@ export default function AboutSection() {
                 <div className="flex items-center space-x-3 text-gray-600 dark:text-gray-300">
                   <Globe size={20} className="text-blue-600 dark:text-blue-400 flex-shrink-0" />
                   <a 
-                    href={t.about.portfolio}
+                    href="https://z-portofolio-rho.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all"
                   >
-                    {t.about.portfolio}
+                    https://z-portofolio-rho.vercel.app/
                   </a>
                 </div>
               </div>
